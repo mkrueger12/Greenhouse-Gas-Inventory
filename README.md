@@ -26,3 +26,7 @@ GHG inventories are generally delay one to two years. For example, a 2018 invent
 16. Water Supply - Denver Water
 17. Recycling - UKNOWN
 18. Renewable Generation - UNKNOWN
+
+# Helpful Data Sources
+
+- Population of those served by Xcel Energy in Colorado (electricity only)
