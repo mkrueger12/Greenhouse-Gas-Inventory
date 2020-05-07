@@ -1,5 +1,5 @@
 # Greenhouse Gas Inventory - Denver
-GHG inventories are generally delay one to two years. For example, a 2018 inventory will be released fall or later in the following year. This is an issue for decisionmakers. This repository is dedicated to solving this issue and understanding if it is possible to quantify GHG emissions based on more readily available data. The end goal is to reduce the "time to market" for GHG inventories allowing for quicker decision making. This specific project is focused on Denver, CO.
+GHG inventories are generally delay one to two years. For example, a 2018 inventory will be released in fall or later in 2019. This is an issue for decisionmakers. This repository is dedicated to solving this issue and understanding if it is possible to quantify GHG emissions based on more readily available data. The end goal is to reduce the "time to market" for GHG inventories allowing for quicker decision making. This specific project is focused on Denver, CO.
 
 
 # Required Data Sources
