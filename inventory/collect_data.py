@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 from inventory.scrape_functions import eiaNetGen
+from inventory.config import EIA_API_KEY
 
 BA = 'PSCO'
 API_KEY = EIA_API_KEY
