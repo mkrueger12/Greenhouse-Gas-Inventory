@@ -1,5 +1,3 @@
-import requests
-import pandas as pd
 from inventory.scrape_functions import eiaNetGen
 from inventory.config import EIA_API_KEY
 
