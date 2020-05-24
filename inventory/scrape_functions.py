@@ -19,4 +19,8 @@ def eiaNetGen(BA, API_KEY, SOURCE):
 
     data['Date'] = pd.to_datetime(data['Date'])
 
+    data['src'] = SOURCE
+
+    # .str.split(",", n=1, expand=True)
+
     return data
