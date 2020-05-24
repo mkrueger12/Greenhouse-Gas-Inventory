@@ -10,7 +10,8 @@ def eiaNetGen(BA, API_KEY, SOURCE):
         BA abbreviation must match abbreviations found here:
         https://www.eia.gov/opendata/qb.php?category=2122628.
         Source Options include solar (SUN), wind (WND), coal (COL),
-        hydro (WAT), nat gas (NG), petroleum (OIL), or total net gen (ALL). """
+        hydro (WAT), nat gas (NG), petroleum (OIL), or total net gen (ALL).
+        Returns most recent 36 hours. """
 
     if SOURCE == 'ALL':
         url = f'http://api.eia.gov/series/?api_key={API_KEY}&series_id=EBA.{BA}-ALL.NG.HL'
