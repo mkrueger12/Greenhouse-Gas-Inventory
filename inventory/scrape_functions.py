@@ -23,7 +23,7 @@ def eiaNetGen(BA, API_KEY, SOURCE):
 
     data['Date'] = pd.to_datetime(data['Date'])
 
-    data['Date'] = data['Date'].apply(lambda x: dt.datetime.strftime(x,'%Y%m%d%H%M'))
+    data['Date'] = data['Date'].apply(lambda x: dt.datetime.strftime(x, '%Y%m%d%H%M'))
 
     data['src'] = SOURCE
 
