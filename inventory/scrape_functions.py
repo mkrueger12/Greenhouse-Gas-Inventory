@@ -27,4 +27,6 @@ def eiaNetGen(BA, API_KEY, SOURCE):
 
     data['src'] = SOURCE
 
+    data = data.head(36)
+
     return data
