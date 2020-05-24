@@ -1,5 +1,6 @@
 import requests
 import pandas as pd
+import datetime
 
 # Create function to scrape EIA Data
 def eiaNetGen(BA, API_KEY, SOURCE):
@@ -18,6 +19,8 @@ def eiaNetGen(BA, API_KEY, SOURCE):
     data = pd.DataFrame(data.get('series')[0].get('data'), columns=['Date', 'Load'])
 
     data['Date'] = pd.to_datetime(data['Date'])
+
+    data['Date'] = data['Date'].strftime("%Y%m%d%H%M")
 
     data['src'] = SOURCE
 
