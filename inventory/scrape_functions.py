@@ -24,6 +24,4 @@ def eiaNetGen(BA, API_KEY, SOURCE):
 
     data['src'] = SOURCE
 
-    # .str.split(",", n=1, expand=True)
-
     return data
