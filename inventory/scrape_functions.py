@@ -30,6 +30,8 @@ def eiaNetGen(BA, API_KEY, SOURCE):
 
     data['ba'] = BA
 
+    data = data.head(25)
+
     data = data.tail(24)
 
     return data
